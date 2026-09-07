@@ -1,0 +1,15 @@
+services:
+  pi-sandbox:
+    build: .
+    image: pi-sandbox
+    stdin_open: true
+    tty: true
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:?set ANTHROPIC_API_KEY}
+    volumes:
+      - ${WORKSPACE}:/workspace
+      - pi-agent-home:/root/.pi/agent
+
+volumes:
+  pi-agent-home:
+    name: pi-agent-home
