@@ -5,7 +5,10 @@ Containerized [pi](https://github.com/earendil-works/pi) runner, based on plain 
 ```sh
 WORKSPACE=<workspace dir>
 ANTHROPIC_API_KEY=<Anthropic API Key>
+GEMINI_API_KEY=<Gemini API Key>
 ```
+
+Provide at least one of `ANTHROPIC_API_KEY` or `GEMINI_API_KEY`.
 
 ## Run pi
 ```
