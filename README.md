@@ -15,4 +15,4 @@ Provide at least one of `ANTHROPIC_API_KEY` or `GEMINI_API_KEY`.
 ./run
 ```
 
-[^1]: https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/containerization.md
+[^1]: https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/containerization.md#plain-docker
