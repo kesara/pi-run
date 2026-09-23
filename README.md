@@ -15,4 +15,11 @@ Provide at least one of `ANTHROPIC_API_KEY` or `GEMINI_API_KEY`.
 ./run
 ```
 
+To rebuild the image first (e.g. to pick up a new pi release):
+```
+./run --build
+```
+
+Run `./run --help` for all options.
+
 [^1]: https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/containerization.md#plain-docker
